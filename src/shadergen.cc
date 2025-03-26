@@ -197,27 +197,27 @@ main(int argc, char** argv)
 
     FILE* outfd = fopen("src/shaders.gen.h", "w");
     if ( outfd ) {
-        output_shader(outfd, "src/picker.v.glsl");
-        output_shader(outfd, "src/picker.f.glsl");
-        output_shader(outfd, "src/layer_blend.v.glsl");
-        output_shader(outfd, "src/layer_blend.f.glsl");
-        output_shader(outfd, "src/simple.v.glsl");
-        output_shader(outfd, "src/simple.f.glsl");
-        output_shader(outfd, "src/outline.v.glsl");
-        output_shader(outfd, "src/outline.f.glsl");
-        output_shader(outfd, "src/stroke_raster.v.glsl", "src/common.glsl");
-        output_shader(outfd, "src/stroke_raster.f.glsl", "src/common.glsl");
-        output_shader(outfd, "src/stroke_eraser.f.glsl", "src/common.glsl");
-        output_shader(outfd, "src/stroke_info.f.glsl", "src/common.glsl");
-        output_shader(outfd, "src/stroke_fill.f.glsl", "src/common.glsl");
-        output_shader(outfd, "src/stroke_clear.f.glsl", "src/common.glsl");
-        output_shader(outfd, "src/stroke_debug.f.glsl", "src/common.glsl");
-        output_shader(outfd, "src/exporter_rect.f.glsl");
-        output_shader(outfd, "src/texture_fill.f.glsl");
-        output_shader(outfd, "src/quad.v.glsl");
-        output_shader(outfd, "src/quad.f.glsl");
-        output_shader(outfd, "src/postproc.f.glsl", "third_party/Fxaa3_11.f.glsl");
-        output_shader(outfd, "src/blur.f.glsl");
+        output_shader(outfd, "src/glsl/picker.v.glsl");
+        output_shader(outfd, "src/glsl/picker.f.glsl");
+        output_shader(outfd, "src/glsl/layer_blend.v.glsl");
+        output_shader(outfd, "src/glsl/layer_blend.f.glsl");
+        output_shader(outfd, "src/glsl/simple.v.glsl");
+        output_shader(outfd, "src/glsl/simple.f.glsl");
+        output_shader(outfd, "src/glsl/outline.v.glsl");
+        output_shader(outfd, "src/glsl/outline.f.glsl");
+        output_shader(outfd, "src/glsl/stroke_raster.v.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/stroke_raster.f.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/stroke_eraser.f.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/stroke_info.f.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/stroke_fill.f.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/stroke_clear.f.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/stroke_debug.f.glsl", "src/glsl/common.glsl");
+        output_shader(outfd, "src/glsl/exporter_rect.f.glsl");
+        output_shader(outfd, "src/glsl/texture_fill.f.glsl");
+        output_shader(outfd, "src/glsl/quad.v.glsl");
+        output_shader(outfd, "src/glsl/quad.f.glsl");
+        output_shader(outfd, "src/glsl/postproc.f.glsl", "third_party/Fxaa3_11.f.glsl");
+        output_shader(outfd, "src/glsl/blur.f.glsl");
 
         fclose(outfd);
     }

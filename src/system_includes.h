@@ -46,11 +46,11 @@
 
 #if defined(_WIN32)
 
-#include "gl.h"
+#include "gl/gl.h"
 
 #elif defined(__linux__)
 
-#include "gl.h"
+#include "gl/gl.h"
 
 // #define GL_GLEXT_PROTOTYPES
 // #include <GL/gl.h>

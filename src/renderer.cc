@@ -4,7 +4,7 @@
 #include "shaders.gen.h"
 
 #include "color.h"
-#include "gl_helpers.h"
+#include "gl/gl_helpers.h"
 #include "gui.h"
 #include "milton.h"
 #include "vector.h"

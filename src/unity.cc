@@ -5,7 +5,7 @@
 #include "bindings.cc"
 #include "canvas.cc"
 #include "color.cc"
-#include "gl_helpers.cc"
+#include "gl/gl_helpers.cc"
 #include "gui.cc"
 #include "localization.cc"
 #include "memory.cc"

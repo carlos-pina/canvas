@@ -1,13 +1,13 @@
 // Copyright (c) 2015 Sergio Gonzalez. All rights reserved.
 // License: https://github.com/serge-rgb/milton#license
 
-#define IMGUI_IMPL_OPENGL_LOADER_CUSTOM "gl.h"
+#define IMGUI_IMPL_OPENGL_LOADER_CUSTOM "gl/gl.h"
 #include <imgui.h>
 #include "imgui_impl_sdl.h"
 #include "imgui_impl_opengl3.h"
 
 #include "milton.h"
-#include "gl_helpers.h"
+#include "gl/gl_helpers.h"
 #include "gui.h"
 #include "persist.h"
 #include "bindings.h"

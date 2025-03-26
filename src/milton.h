@@ -7,7 +7,7 @@
 #include "memory.h"
 #include "system_includes.h"
 #include "canvas.h"
-#include "DArray.h"
+#include "types/DArray.h"
 #include "profiler.h"
 
 #define STROKE_MAX_POINTS           2048
