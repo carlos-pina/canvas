@@ -1,7 +1,6 @@
 // Copyright (c) 2015 Sergio Gonzalez. All rights reserved.
 // License: https://github.com/serge-rgb/milton#license
 
-
 #pragma once
 
 #include "common.h"
@@ -14,7 +13,6 @@
 #if defined(__cplusplus)
 extern "C" {
 #endif
-
 
 // EasyTab for drawing tablet support
 
@@ -89,7 +87,6 @@ struct PlatformState
 typedef enum HistoryDebug
 {
     HistoryDebug_NOTHING,
-
     HistoryDebug_RECORD,
     HistoryDebug_REPLAY,
 } HistoryDebug;
@@ -137,7 +134,6 @@ enum FileKind
 {
     FileKind_IMAGE,
     FileKind_MILTON_CANVAS,
-
     FileKind_COUNT,
 };
 

@@ -1,9 +1,7 @@
 // Copyright (c) 2015 Sergio Gonzalez. All rights reserved.
 // License: https://github.com/serge-rgb/milton#license
 
-
-#ifndef MLT_COMMON
-#define MLT_COMMON
+#pragma once
 
 #include "milton_configuration.h"
 
@@ -73,7 +71,6 @@ typedef i32         b32;
     #define MLT_ABS(x) (((x) < 0) ? -(x) : (x))
 #endif
 
-
 #define INVALID_CODE_PATH mlt_assert(!"Invalid code path")
 
 #if defined(MILTON_DEBUG)
@@ -84,5 +81,3 @@ typedef i32         b32;
         #define BREAKHERE asm ("int $3")
     #endif
 #endif
-
-#endif  // MLT_COMMON

@@ -59,22 +59,12 @@ void win32_log_args(char *format, va_list args);
 
 HRESULT WINAPI SHGetFolderPathW(__reserved HWND hwnd, __in int csidl, __in_opt HANDLE hToken, __in DWORD dwFlags, __out_ecount(MAX_PATH) LPWSTR pszPath);
 
-
-    //*
-    // -------------------------------
-    //
-
-
-
 // C standard library function defs.
 // --------------------------------
-
-
 
 void win_load_clib();
 
 // ---------------
-
 
 // Shcore.dll
 

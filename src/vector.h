@@ -1,11 +1,9 @@
 // Copyright (c) 2015 Sergio Gonzalez. All rights reserved.
 // License: https://github.com/serge-rgb/milton#license
 
-
 #pragma once
 
 #include "common.h"
-
 
 #define PI 3.141592654f
 
@@ -26,7 +24,6 @@ struct Vector2
     };
 };
 
-
 Vector2<i32> VEC2I(Vector2<i64> o);
 
 Vector2<i64> VEC2L(Vector2<i32> o);
@@ -35,6 +32,7 @@ Vector2<i64> VEC2L(Vector2<i32> o);
 typedef Vector2<i32>     v2i;
 typedef Vector2<i64>     v2l;
 typedef Vector2<float>   v2f;
+
 #define operator2_scalar(OP) \
 template<typename T> \
 Vector2<T> operator OP (const Vector2<T>& v, T f) \

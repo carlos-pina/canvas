@@ -592,7 +592,7 @@ milton_main(bool is_fullscreen, char* file_to_open)
         sdl_window_flags |= SDL_WINDOW_RESIZABLE;
     }
 
-    window = SDL_CreateWindow("Milton",
+    window = SDL_CreateWindow("Canvas",
                               SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
                               window_width, window_height,
                               sdl_window_flags);

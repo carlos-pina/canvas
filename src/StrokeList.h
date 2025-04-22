@@ -6,11 +6,9 @@
 // - Works as a dynamically-sized array for Strokes.
 // - Pointers to elements in the StrokeList stay valid for the lifetime of the program.
 
-
 #pragma once
 
 #include "stroke.h"
-
 #include "memory.h"
 
 #define STROKELIST_BUCKET_COUNT 4196

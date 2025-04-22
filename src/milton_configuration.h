@@ -7,11 +7,9 @@
 #define MILTON_MINOR_VERSION 10
 #define MILTON_MICRO_VERSION 1
 
-
 #if !defined(MILTON_DEBUG)  // Might be defined by cmake
     #define MILTON_DEBUG 0
 #endif
-
 
 // Debug settings
 
@@ -26,7 +24,6 @@
     // If 1, print to VS console. Debug messages always print to log file.
     #define WIN32_DEBUGGER_OUTPUT 1
 #endif
-
 
 #define MILTON_MULTITHREADED 1
 
@@ -60,7 +57,6 @@
 
 // Uses GL 2.1 when 0
 #define USE_GL_3_2 1
-
 
     // Use 3.2 on macos. OpenGL 3.2 is supported by all mac computers since macOS 10.8.5
     // https://developer.apple.com/opengl/OpenGL-Capabilities-Tables.pdf
